@@ -1,0 +1,12 @@
+{
+  "name": "sockets",
+  "version": "1.0.0",
+  "description": "Simple socket behaviour example.",
+  "main": "server-host.js",
+  "scripts": {
+    "start:host": "PORT=8080 node server-host.js",
+    "start:client": "PORT=8080 node server-client.js"
+  },
+  "author": "Yaroslav Mudryi",
+  "license": "ISC"
+}
